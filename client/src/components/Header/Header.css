@@ -1,0 +1,89 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--second-color);
+    font-weight: var(--font-medium);
+}
+
+.logo__icon {
+    width: 20px;
+}
+
+.nav__button {
+    display: none;
+}
+
+.nav__toggle {
+    color: var(--title-color);
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        width: 75%;
+        padding-top: 9rem;
+        box-shadow: 0 4px 8px #f0f0f0;
+        transition: .4s;
+        background-color: var(--body-color);
+    }
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 2.5rem;
+}
+
+.nav__item a {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: color .3s;
+}
+
+.nav__item a:hover {
+    color: var(--second-color);
+}
+
+.nav__close {
+    position: absolute;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    top: 1rem;
+    right: 1.25rem;
+    cursor: pointer;
+}
+
+.nav__item a.active-link  {
+    color: var(--second-color);
+}
+
+.show-menu {
+    right: 0;
+}
+
+.scroll-header {
+    background-color: var(--body-color);
+    box-shadow: 0 2px 4px #f0f0f0;
+}

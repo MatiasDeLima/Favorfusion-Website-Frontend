@@ -49,6 +49,7 @@
     align-items: center;
     column-gap: .7rem;
     border-radius: 2rem;
+    font-weight: var(--font-semi-bold);
     color: var(--second-color);
     background-color: transparent
 }
@@ -63,6 +64,7 @@
 }
 
 .button__video i {
+    color: var(--first-color);
     font-size: 1.25rem;
 }
 
@@ -132,11 +134,38 @@
     transform: rotate(-20deg);
 }
 
+.hero__circle-2 {
+    position: absolute;
+    top: 10rem;
+    left: -1rem;
+    width: 12px;
+}
+
+.hero__geometric-1 {
+    position: absolute;
+    bottom: 7rem;
+    right: -1.5rem;
+    width: 12px;
+}
+
+.hero__geometric-2 {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 3.5rem;
+    width: 12px;
+}
+
 .image__data-left {
     background-color: #FFFAED;
     width: 35px;
     height: 35px;
+    display: grid;
+    place-items: center;
     border-radius: 50%;
+}
+
+.image__data-left img {
+    width: 20px;
 }
 
 .content__left {
@@ -222,6 +251,10 @@
 }
 
 /*========== SERVICES SECTION  ==========*/
+.services {
+    position: relative;
+}
+
 .services__container {
     padding-top: 4rem;
     row-gap: 2rem;
@@ -255,8 +288,41 @@
     line-height: 24px;
 }
 
+.services__geometric-1,
+.services__geometric-2,
+.services__circle-2 {
+    position: absolute;
+    width: 12px;
+}
+
+.services__geometric-1 {
+    top: 8rem;
+    left: 2rem;
+}
+
+.services__geometric-2 {
+    top: 6rem;
+    right: 2rem;
+}
+
+.services__circle-2 {
+    bottom: 0;
+    right: 3rem;
+}
+
 
 /*========== OUR MENU SECTION  ==========*/
+.menu {
+    position: relative;
+}
+
+.menu__geometric-2 {
+    position: absolute;
+    width: 12px;
+    right: 2rem;
+    top: 7rem;
+}
+
 .menu__container {
     padding-top: 4rem;
 }
@@ -447,8 +513,29 @@
 }
 
 .about__image {
+    position: relative;
     width: 290px;
     justify-self: center;
 }
 
-/*========== APP SECTION  ==========*/
+.about__geometric-1,
+.about__geometric-2,
+.about__circle-1 {
+    width: 12px;
+    position: absolute;
+}
+
+.about__geometric-1 {
+    right: 2rem;
+    top: 7rem;
+}
+
+.about__geometric-2 {
+    left: 1.5rem;
+    top: 2rem;
+}
+
+.about__circle-1 {
+    left: -1rem;
+    bottom: 4rem;
+}

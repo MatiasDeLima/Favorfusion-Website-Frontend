@@ -19,6 +19,13 @@ import menuicon4 from '../assets/menu-icon-4.png';
 import menuicon5 from '../assets/menu-icon-5.png';
 import aboutImage from '../assets/about-image-1.png';
 import appImage from '../assets/app-image.png';
+import registerImage from '../assets/register-image.svg';
+import dicountImage1 from '../assets/discount-image-1.png';
+import circle1 from '../assets/circle-1.svg';
+import circle2 from '../assets/circle-2.svg';
+import geometric1 from '../assets/geometric-1.svg';
+import geometric2 from '../assets/geometric-2.svg';
+import homeFace from '../assets/home-face.png';
 
 
 export default {
@@ -42,5 +49,12 @@ export default {
     menuicon4,
     menuicon5,
     aboutImage,
-    appImage
+    appImage,
+    registerImage,
+    dicountImage1,
+    circle1,
+    circle2,
+    geometric1,
+    geometric2,
+    homeFace
 }

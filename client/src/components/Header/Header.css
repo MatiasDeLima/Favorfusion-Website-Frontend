@@ -35,7 +35,7 @@
     font-size: 1.25rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .nav__menu {
         position: fixed;
         height: 100%;
@@ -85,5 +85,5 @@
 
 .scroll-header {
     background-color: var(--body-color);
-    box-shadow: 0 2px 4px #f0f0f0;
+    box-shadow: 0 2px 4px #dadada7e;
 }

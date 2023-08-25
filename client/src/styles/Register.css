@@ -1,0 +1,85 @@
+.register__container {
+    text-align: center;
+    padding-top: 1rem;
+    row-gap: 3rem;
+}
+
+.register__image img{
+    width: 300px;
+}
+
+.register__form {
+    display: grid;
+    justify-content: center;
+   
+    border: 1px solid #eaeaea;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+
+.register__form-data {
+    margin-bottom: 2.5rem;
+}
+
+.register__inputs {
+    display: grid;
+    row-gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.register__input {
+    border-radius: 10px;
+    position: relative;
+    background-color: #F6F6F6;
+    outline: none;
+    border: none;
+    padding: 16px 4rem 16px 1rem;
+}
+
+.register__input-flex {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.register__input-flex i{
+    position: absolute;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.register__input::placeholder {
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+}
+
+.register__buttons {
+    display: grid;
+    grid-template-columns: 230px;
+    row-gap: 1.5rem;
+    justify-content: center;
+}
+
+.register__name {
+    font-size: var(--small-font-size);
+}
+
+.register-button {
+    background: none;
+    border: 1px solid #d8d8d8;
+    color: var(--text-color);
+}
+
+.register-button:hover {
+    background: none;
+}
+
+.register__form-data {
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+}

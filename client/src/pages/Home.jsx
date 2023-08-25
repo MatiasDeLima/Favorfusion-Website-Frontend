@@ -66,11 +66,14 @@ const Home = () => {
           <div className="hero__image">
             <img src={images.grafios1} alt="" className='hero__grafio-1' />
             <img src={images.grafios2} alt="" className='hero__grafio-2' />
+            <img src={images.circle1} alt="" className='hero__circle-2' />
+            <img src={images.geometric1} alt="" className='hero__geometric-1' />
+            <img src={images.geometric1} alt="" className='hero__geometric-2' />
 
             <div className="image__data">
               <div className="content__left">
                 <div className="image__data-left">
-
+                    <img src={images.homeFace} alt="home face" />
                 </div>
 
                 <div className="image__data-mid">
@@ -111,7 +114,7 @@ const Home = () => {
               </div>
             </div>
 
-            <img src={images.homeimage} alt="home image" />
+            <img src={images.homeimage} alt="home image" className="hero__image"/>
           </div>
         </div>
       </section>
@@ -120,6 +123,10 @@ const Home = () => {
       <section className="services section">
         <h3 className="section__subtitle">WHAT WE SERVE</h3>
         <h2 className="section__title">Your Favourite Food<br />Delivery Partner</h2>
+        
+        <img src={images.geometric1} alt="" className="services__geometric-1"/>
+        <img src={images.geometric2} alt="" className="services__geometric-2"/>
+        <img src={images.circle2} alt="" className="services__circle-2"/>
 
         <div className="services__container container grid">
           <article className="service__card">
@@ -168,6 +175,8 @@ const Home = () => {
       <section className="menu section">
         <h3 className="section__subtitle">OUR MENU</h3>
         <h2 className="section__title">Menu That Always <br />Make you fall in love</h2>
+    
+        <img src={images.geometric2} alt="" className="menu__geometric-2"/>
 
         <div className="menu__container container grid">
           <div className="menu__slider">
@@ -354,6 +363,10 @@ const Home = () => {
           </div>
 
           <div className="about__image">
+            <img src={images.geometric2} alt="" className="about__geometric-2"/>
+            <img src={images.geometric1} alt="" className="about__geometric-1"/>
+            <img src={images.circle1} alt="" className="about__circle-1"/>
+
             <img src={images.aboutImage} alt="about image" />
           </div>
         </div>

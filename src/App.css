@@ -149,7 +149,19 @@ button {
 
 /*========== BREAKPOINTS  ==========*/
 @media screen and (min-width: 576px) {
-  
+  .about__data,
+  .hero__data {
+    display: grid;
+    grid-template-columns: 350px;
+  }
+
+  .footer__description{
+    grid-template-columns: 300px;
+  }
+
+  .footer__data {
+    grid-template-columns: repeat(3, max-content) !important;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -172,7 +184,7 @@ button {
   }
 
   .about__container {
-    grid-template-columns: 300px 370px;
+    grid-template-columns: 370px 370px;
     justify-content: center;
     column-gap: 3rem;
   }
@@ -183,16 +195,20 @@ button {
     column-gap: 2rem;
   }
 
-  .footer__container {
-    grid-template-columns: repeat(3, 200px);
-    row-gap: 5rem !important;
-    justify-content: space-between;
+  .footer__data {
+    grid-template-columns: repeat(4, max-content) !important;
   }
 }
 
 @media screen and (min-width: 976px) {
-  .footer__container {
-    grid-template-columns: repeat(4, 200px);
+  .footer__content {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer__description{
+    grid-template-columns: 250px;
   }
 
   .services__container {
@@ -226,9 +242,23 @@ button {
     align-items: center;
   }
 
+  .hero__data {
+    display: grid;
+    grid-template-columns: initial;
+  }
+
   .hero__image {
     z-index: -1;
     width: 350px !important;
+  }
+
+  .about__image {
+    width: 350px !important;
+  }
+
+  .footer__content {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between !important;
   }
 }
 

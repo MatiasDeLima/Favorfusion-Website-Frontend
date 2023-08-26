@@ -114,7 +114,7 @@ const Home = () => {
               </div>
             </div>
 
-            <img src={images.homeimage} alt="home image" className="hero__image"/>
+            <img src={images.homeimage} alt="home image" className="hero__img"/>
           </div>
         </div>
       </section>

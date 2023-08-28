@@ -63,6 +63,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -78,6 +79,12 @@ button {
   list-style: none;
   border: none;
   font-family: var(--body-font);
+}
+
+input,
+button {
+  outline: none;
+  border: none;
 }
 
 /*========== REUSABLE CSS CLASSES  ==========*/
@@ -147,120 +154,7 @@ button {
   border-radius: 1rem;
 }
 
-/*========== BREAKPOINTS  ==========*/
-@media screen and (min-width: 576px) {
-  .about__data,
-  .hero__data {
-    display: grid;
-    grid-template-columns: 350px;
-  }
 
-  .footer__description{
-    grid-template-columns: 300px;
-  }
-
-  .footer__data {
-    grid-template-columns: repeat(3, max-content) !important;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .hero__container {
-    grid-template-columns: 300px 370px;
-    justify-content: center;
-    column-gap: 3rem;
-  }
-
-  .services__container {
-    grid-template-columns: repeat(2, 260px) !important;
-    column-gap: 2rem;
-  }
-
-  .menu__container {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: center;
-    column-gap: 3rem;
-    align-items: flex-start;
-  }
-
-  .about__container {
-    grid-template-columns: 370px 370px;
-    justify-content: center;
-    column-gap: 3rem;
-  }
-
-  .app__container {
-    grid-template-columns: 300px 350px;
-    justify-content: center;
-    column-gap: 2rem;
-  }
-
-  .footer__data {
-    grid-template-columns: repeat(4, max-content) !important;
-  }
-}
-
-@media screen and (min-width: 976px) {
-  .footer__content {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .footer__description{
-    grid-template-columns: 250px;
-  }
-
-  .services__container {
-    grid-template-columns: repeat(3, 260px) !important;
-  }
-}
-
-@media screen and (min-width: 1023px) {
-  .nav__toggle,
-  .nav__close {
-    display: none;
-  }
-  .nav__list {
-    flex-direction: row !important;
-    column-gap: 2rem;
-  }
-
-  .nav__menu {
-    margin-left: auto;
-  }
-
-  .nav {
-    height: calc(var(--header-height) + 1rem) !important;
-  }
-
-  .nav__link {
-    font-size: initial !important;
-  }
-  .hero__container {
-    grid-template-columns: 500px 400px;
-    align-items: center;
-  }
-
-  .hero__data {
-    display: grid;
-    grid-template-columns: initial;
-  }
-
-  .hero__image {
-    z-index: -1;
-    width: 350px !important;
-  }
-
-  .about__image {
-    width: 350px !important;
-  }
-
-  .footer__content {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: space-between !important;
-  }
-}
 
 @media screen and (min-width: 1152px) {
   .container {

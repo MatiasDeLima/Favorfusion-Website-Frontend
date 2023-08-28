@@ -1,0 +1,118 @@
+/*========== ABOUT US SECTION  ==========*/
+.about__container {
+  row-gap: 3.5rem;
+}
+
+.about__subtitle {
+  color: var(--second-color);
+  text-transform: uppercase;
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.about__title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.about__description {
+  line-height: 21px;
+  margin-bottom: 1.5rem;
+}
+
+.about__user-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.about__review-div {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}
+
+.about__review-image {
+  width: 40px;
+}
+
+.about__review-title {
+  color: var(--title-color);
+  margin-bottom: 0.2rem;
+}
+
+.about__review {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.about__review span {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.about__stars i {
+  color: var(--first-color);
+  font-size: 1rem;
+}
+
+.about__image {
+  position: relative;
+  width: 290px;
+  justify-self: center;
+}
+
+.about__geometric-1,
+.about__geometric-2,
+.about__circle-1 {
+  width: 12px;
+  position: absolute;
+}
+
+.about__geometric-1 {
+  right: 2rem;
+  top: 7rem;
+}
+
+.about__geometric-2 {
+  left: 1.5rem;
+  top: 2rem;
+}
+
+.about__circle-1 {
+  left: -1rem;
+  bottom: 4rem;
+}
+
+/*========== BREAKPOINTS  ==========*/
+@media screen and (min-width: 576px) {
+  .about__data {
+    display: grid;
+    grid-template-columns: 350px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .about__container {
+    grid-template-columns: repeat(2, 320px);
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 976px) {
+}
+
+@media screen and (min-width: 1023px) {
+  .about__image {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .about__container {
+    grid-template-columns: repeat(2, 400px);
+  }
+}

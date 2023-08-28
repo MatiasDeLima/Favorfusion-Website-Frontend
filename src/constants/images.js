@@ -26,6 +26,14 @@ import circle2 from '../assets/circle-2.svg';
 import geometric1 from '../assets/geometric-1.svg';
 import geometric2 from '../assets/geometric-2.svg';
 import homeFace from '../assets/home-face.png';
+import foodBanner from '../assets/food-banner.png';
+import foodBanner1 from '../assets/food-image-1.png';
+import foodBanner2 from '../assets/food-image-2.png';
+import foodBanner3 from '../assets/food-image-3.png';
+import foodBanner4 from '../assets/food-image-4.png';
+import foodBanner5 from '../assets/food-image-5.png';
+import foodBanner6 from '../assets/food-image-6.png';
+import commonBg from '../assets/details-bg.png';
 
 
 export default {
@@ -56,5 +64,13 @@ export default {
     circle2,
     geometric1,
     geometric2,
-    homeFace
+    homeFace,
+    foodBanner,
+    foodBanner1,
+    foodBanner2,
+    foodBanner3,
+    foodBanner4,
+    foodBanner5,
+    foodBanner6,
+    commonBg
 }

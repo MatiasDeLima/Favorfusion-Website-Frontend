@@ -1,0 +1,145 @@
+/*========== SERVICES SECTION  ==========*/
+.services {
+  position: relative;
+}
+
+.services__container {
+  padding-top: 4rem;
+  row-gap: 2rem;
+  grid-template-columns: 260px;
+  justify-content: center;
+}
+
+.service__card {
+  text-align: center;
+  padding: 2rem 2rem;
+  border-radius: 1.25rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.service__card:hover {
+  box-shadow: 0 0 4px #dfdfdf;
+}
+
+.service__card-img {
+  width: 180px;
+  margin-bottom: 1rem;
+}
+
+.service__card-title {
+  color: var(--title-color);
+  margin-bottom: 0.5rem;
+}
+
+.service__card-description {
+  line-height: 24px;
+}
+
+.services__geometric-1,
+.services__geometric-2,
+.services__circle-2 {
+  position: absolute;
+  width: 12px;
+}
+
+.services__geometric-1 {
+  top: 8rem;
+  left: 2rem;
+}
+
+.services__geometric-2 {
+  top: 6rem;
+  right: 2rem;
+}
+
+.services__circle-2 {
+  bottom: 0;
+  right: 3rem;
+}
+
+/*========== BREAKPOINTS  ==========*/
+@media screen and (min-width: 576px) {
+  .services__geometric-1 {
+    top: 9rem;
+    left: 9rem;
+  }
+  
+  .services__geometric-2 {
+    top: 6rem;
+    right: 9rem;
+  }
+
+  .services__circle-2 {
+    bottom: -2rem;
+    right: 5rem;
+  }
+
+}
+
+@media screen and (min-width: 767px) {
+  .services__container {
+    grid-template-columns: repeat(2, 260px);
+    column-gap: 2rem;
+  }
+
+  .services__geometric-1 {
+    top: 9rem;
+    left: 13rem;
+  }
+  
+  .services__geometric-2 {
+    top: 6rem;
+    right: 13rem;
+  }
+
+  .services__circle-2 {
+    bottom: -2rem;
+    right: 8rem;
+  }
+
+}
+
+@media screen and (min-width: 976px) {
+  .services__container {
+    grid-template-columns: repeat(3, 260px);
+  }
+
+  .services__geometric-1 {
+    top: 9rem;
+    left: 17rem;
+  }
+  
+  .services__geometric-2 {
+    top: 6rem;
+    right: 17rem;
+  }
+  
+  .services__circle-2 {
+    bottom: -2rem;
+    right: 8rem;
+  }
+
+}
+
+@media screen and (min-width: 1023px) {
+  .services__geometric-1 {
+    top: 9rem;
+    left: 23rem;
+  }
+  
+  .services__geometric-2 {
+    top: 6rem;
+    right: 23rem;
+  }
+
+  .services__circle-2 {
+    bottom: -2rem;
+    right: 17rem;
+  }
+
+}
+
+@media screen and (min-width: 1152px) {
+  
+}

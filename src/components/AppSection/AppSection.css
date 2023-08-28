@@ -1,32 +1,39 @@
-
 .app__container {
-    background-color: #FFFAED;
-    padding: 3rem 1.25rem;
-    border-radius: 1.5rem;
-    row-gap: 3rem;
-    overflow: hidden;
+  background-color: #fffaed;
+  padding: 3rem 1.25rem;
+  border-radius: 1.5rem;
+  row-gap: 3rem;
+  overflow: hidden;
 }
 
 .app__subtitle {
-    color: var(--second-color);
-    font-size: var(--h3-font-size);
-    margin-bottom: .5rem;
+  color: var(--second-color);
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
 }
 
 .app__title {
-    color: var(--title-color);
-    font-size: var(--h2-font-size);
-    line-height: 34px;
-    margin-bottom: 1rem;
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  line-height: 34px;
+  margin-bottom: 1rem;
 }
 
 .app__description {
-    line-height: 21px;
-    margin-bottom: 2rem;
+  line-height: 21px;
+  margin-bottom: 2rem;
 }
 
 .app__image {
-    justify-self: center;
-    width: 220px;
-    margin-bottom: -3.5rem;
+  justify-self: center;
+  width: 220px;
+  margin-bottom: -3.5rem;
+}
+
+@media screen and (min-width: 767px) {
+  .app__container {
+    grid-template-columns: 300px 350px;
+    justify-content: center;
+    column-gap: 2rem;
+  }
 }

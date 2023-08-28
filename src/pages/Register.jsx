@@ -8,7 +8,7 @@ const Register = () => {
     <section className="register section">
       <div className="register__container container grid">
         <div className="register__image">
-          <img src={images.registerImage} alt="register image" />
+          <img src={images.registerImage} alt="" />
         </div>
 
 

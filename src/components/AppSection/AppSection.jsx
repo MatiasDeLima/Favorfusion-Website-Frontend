@@ -22,7 +22,7 @@ const AppSection = () => {
             I highly recommend FastFood to you.”
           </p>
 
-          <a href="#" className="button app__button">Get The App</a>
+          <a href="" className="button app__button">Get The App</a>
         </div>
 
         <div className="app__image">

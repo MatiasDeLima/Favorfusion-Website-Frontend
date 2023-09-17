@@ -1,6 +1,6 @@
 import React from "react";
 
-import images from '../constants/images';
+import images from "../assets/index.js";
 
 const Login = () => {
   return (

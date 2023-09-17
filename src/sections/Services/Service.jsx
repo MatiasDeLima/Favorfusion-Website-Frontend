@@ -1,6 +1,6 @@
 import React from "react";
 
-import images from '../../constants/images'
+import images from "../../assets/index.js";
 
 import "./Service.css";
 
@@ -21,7 +21,7 @@ const Service = () => {
       <div className="services__container container grid">
         <article className="service__card">
           <img
-            src={images.service1}
+            src={images.serviceImg1}
             alt="service image"
             className="service__card-img"
           />
@@ -35,7 +35,7 @@ const Service = () => {
 
         <article className="service__card">
           <img
-            src={images.service2}
+            src={images.serviceImg2}
             alt="service image"
             className="service__card-img"
           />
@@ -49,7 +49,7 @@ const Service = () => {
 
         <article className="service__card">
           <img
-            src={images.service3}
+            src={images.serviceImg3}
             alt="service image"
             className="service__card-img"
           />

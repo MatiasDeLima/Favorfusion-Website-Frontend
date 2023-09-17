@@ -1,5 +1,5 @@
 import React from 'react'
-import images from "./../constants/images.js"
+import images from "../assets/index.js";
 
 import "./../styles/Register.css"
 

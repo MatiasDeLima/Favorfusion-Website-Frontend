@@ -33,6 +33,10 @@
   column-gap: 0.8rem;
 }
 
+.about__review-div img{
+  border-radius: 50%;
+}
+
 .about__review-image {
   width: 40px;
 }

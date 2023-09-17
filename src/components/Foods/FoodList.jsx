@@ -1,7 +1,7 @@
 import React from "react";
 
 import FoodCard from "../../shared/FoodCard";
-import foods from "../../constants/data/foods";
+import foods from "../../assets/data/foods.js";
 
 import "./foodList.css";
 

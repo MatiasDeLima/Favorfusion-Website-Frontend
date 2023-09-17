@@ -14,11 +14,11 @@ const Routers = () => {
             <Route path='/' element={<Home />}></Route>
             <Route path='/home' element={<Home />}></Route>
             <Route path='/foods' element={<Foods />}></Route>
+            <Route path='/foods/:id' element={<FoodDetails />}></Route>
             <Route path='/login' element={<Login />}></Route>
             <Route path='/register' element={<Register />}></Route>
             <Route path='/menu' element={<Menu />}></Route>
             <Route path='/services' element={<Service />}></Route>
-            <Route path='/details' element={<FoodDetails />}></Route>
         </Routes>
     )
 }

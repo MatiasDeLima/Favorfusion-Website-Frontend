@@ -108,6 +108,7 @@
 .data__bottom-top img {
   width: 32px;
   border: 1px solid #fff;
+  border-radius: 50%;
 }
 
 .hero__image {
@@ -211,7 +212,12 @@
 }
 
 .pizza__image {
+  border-radius: .5rem;
   width: 60px;
+}
+
+.pizza__image img {
+  border-radius: .5rem;
 }
 
 .image__data-2 {

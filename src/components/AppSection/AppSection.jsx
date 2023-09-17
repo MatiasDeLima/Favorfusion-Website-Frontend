@@ -1,5 +1,5 @@
 import React from 'react'
-import images from '../../constants/images'
+import images from '../../assets/index.js'
 import './AppSection.css'
 
 const AppSection = () => {
@@ -26,7 +26,7 @@ const AppSection = () => {
         </div>
 
         <div className="app__image">
-          <img src={images.appImage} alt="app image" />
+          <img src={images.appImg} alt="app image" />
         </div>
       </div>
     </section>

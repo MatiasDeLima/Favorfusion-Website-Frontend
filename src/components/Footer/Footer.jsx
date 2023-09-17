@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../../constants/images";
+import images from "../../assets/index.js";
 import "./Footer.css";
 
 const Footer = () => {
@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="footer__content grid">
           <div className="footer__description grid">
             <a href="#" class="nav__logo">
-              <img src={images.logo} alt="" className="logo__icon" />
               FastFood
             </a>
 

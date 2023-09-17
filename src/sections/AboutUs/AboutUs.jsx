@@ -1,6 +1,6 @@
 import React from "react";
 
-import images from '../../constants/images'
+import images from "../../assets/index.js";
 import "./AboutUs.css";
 
 const AboutUs = () => {
@@ -24,7 +24,7 @@ const AboutUs = () => {
           <div className="about__user-content">
             <div className="about__review-div">
               <img
-                src={images.review1}
+                src={images.heroReview1}
                 alt=""
                 className="about__review-image"
               />
@@ -56,7 +56,7 @@ const AboutUs = () => {
           <img src={images.geometric1} alt="" className="about__geometric-1" />
           <img src={images.circle1} alt="" className="about__circle-1" />
 
-          <img src={images.aboutImage} alt="about image" />
+          <img src={images.aboutImg} alt="about image" />
         </div>
       </div>
     </section>

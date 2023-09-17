@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Hero.css";
 
-import images from '../../constants/images'
+import images from "../../assets/index.js";
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="hero__subtitle">
               More than Faster{" "}
               <img
-                src={images.homeicon}
+                src={images.heroIcon1}
                 alt=""
                 className="hero__subtitle-icon"
               />
@@ -48,9 +48,9 @@ const Hero = () => {
 
           <div className="data__bottom">
             <div className="data__bottom-top">
-              <img src={images.review1} alt="" className="review__image" />
-              <img src={images.review2} alt="" className="review__image" />
-              <img src={images.review3} alt="" className="review__image" />
+              <img src={images.heroReview1} alt="" className="review__image" />
+              <img src={images.heroReview2} alt="" className="review__image" />
+              <img src={images.heroReview3} alt="" className="review__image" />
             </div>
 
             <div className="data__bottom-bottom">
@@ -64,8 +64,8 @@ const Hero = () => {
         </div>
 
         <div className="hero__image">
-          <img src={images.grafios1} alt="" className="hero__grafio-1" />
-          <img src={images.grafios2} alt="" className="hero__grafio-2" />
+          <img src={images.heroIcon2} alt="" className="hero__grafio-1" />
+          <img src={images.heroIcon3} alt="" className="hero__grafio-2" />
           <img src={images.circle1} alt="" className="hero__circle-2" />
           <img src={images.geometric1} alt="" className="hero__geometric-1" />
           <img src={images.geometric1} alt="" className="hero__geometric-2" />
@@ -73,7 +73,7 @@ const Hero = () => {
           <div className="image__data">
             <div className="content__left">
               <div className="image__data-left">
-                <img src={images.homeFace} alt="home face" />
+                <img src={images.heroFaceImg} alt="home face" />
               </div>
 
               <div className="image__data-mid">
@@ -90,7 +90,7 @@ const Hero = () => {
 
           <div className="image__data-2">
             <div className="pizza__image">
-              <img src={images.homepizza} alt="home pizza" />
+              <img src={images.heroPizzaImg} alt="home pizza" />
             </div>
 
             <div className="pizza__data">
@@ -112,7 +112,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <img src={images.homeimage} alt="home image" className="hero__img" />
+          <img src={images.heroImg} alt="home image" className="hero__img" />
         </div>
       </div>
     </section>

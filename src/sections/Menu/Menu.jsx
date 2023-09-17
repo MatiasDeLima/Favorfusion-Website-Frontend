@@ -1,6 +1,6 @@
 import React from "react";
 
-import images from '../../constants/images'
+import images from "../../assets/index.js";
 
 import "./Menu.css";
 
@@ -19,7 +19,7 @@ const Menu = () => {
         <div className="menu__slider">
           <article className="menu__card">
             <img
-              src={images.menuimage1}
+              src={images.menuImg1}
               alt="menu image"
               className="card__image"
             />
@@ -42,7 +42,7 @@ const Menu = () => {
 
           <article className="menu__card">
             <img
-              src={images.menuimage2}
+              src={images.menuImg2}
               alt="menu image"
               className="card__image"
             />
@@ -67,7 +67,7 @@ const Menu = () => {
         <div className="menu__category">
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon1} alt="" />
+              <img src={images.menuIcon1} alt="" />
             </div>
 
             <h3 className="category__name">Burger</h3>
@@ -75,7 +75,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon2} alt="" />
+              <img src={images.menuIcon2} alt="" />
             </div>
 
             <h3 className="category__name">Pizza</h3>
@@ -83,7 +83,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon3} alt="" />
+              <img src={images.menuIcon3} alt="" />
             </div>
 
             <h3 className="category__name">Cupcake</h3>
@@ -91,7 +91,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon4} alt="" />
+              <img src={images.menuIcon4} alt="" />
             </div>
 
             <h3 className="category__name">Ramen</h3>
@@ -99,7 +99,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>
@@ -107,7 +107,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>
@@ -115,7 +115,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>
@@ -123,7 +123,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>
@@ -131,7 +131,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>
@@ -139,7 +139,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>
@@ -147,7 +147,7 @@ const Menu = () => {
 
           <div className="category__content">
             <div className="category__image">
-              <img src={images.menuicon5} alt="" />
+              <img src={images.menuIcon5} alt="" />
             </div>
 
             <h3 className="category__name">Ice Cream</h3>

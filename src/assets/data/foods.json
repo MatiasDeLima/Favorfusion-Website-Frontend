@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Westminister Bridge",
+        "price": 99,
+        "desc": "this is the description",
+        "reviews": [],
+        "photo": "/tour-images/tour-img01.jpg",
+        "featured": true,
+        "dicount": true
+    }
+]

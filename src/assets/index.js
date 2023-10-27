@@ -13,6 +13,10 @@ import foodImg3 from "./images/food-image-3.png";
 import foodImg4 from "./images/food-image-4.png";
 import foodImg5 from "./images/food-image-5.png";
 import foodImg6 from "./images/food-image-6.png";
+import foodImg7 from "./images/food-image-7.jpg";
+import foodImg8 from "./images/food-image-8.jpg";
+import foodImg9 from "./images/food-image-9.jpg";
+import foodImg10 from "./images/food-image-10.jpg";
 import menuImg1 from "./images/menu-food-1.png";
 import menuImg2 from "./images/menu-food-2.png";
 import menuImg3 from "./images/menu-food-3.png";
@@ -37,6 +41,7 @@ import appImg from "./images/app-image.png";
 import logoImg from "./images/logo-image.svg";
 import aboutImg from "./images/about-image.png";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     heroImg,
     heroPizzaImg,
@@ -53,6 +58,10 @@ export default {
     foodImg4,
     foodImg5,
     foodImg6,
+    foodImg7,
+    foodImg8,
+    foodImg9,
+    foodImg10,
     menuImg1,
     menuImg2,
     menuImg3,
